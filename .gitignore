@@ -4,6 +4,7 @@ tags
 resources/*.nib
 resources/*.momd
 resources/*.storyboardc
+vendor/Pods
 .DS_Store
 nbproject
 .redcar
