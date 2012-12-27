@@ -45,6 +45,7 @@ class HighlightsScreen < ProMotion::TableScreen
   def launch_video(args={})
     videos = HCYoutubeParser.h264videosWithYoutubeURL(NSURL.URLWithString(args[:url]))
     mp = MPMoviePlayerViewController.alloc.initWithContentURL(NSURL.URLWithString(videos["medium"]))
-    open mp, modal: true
+    # open mp, modal: true
+    self.presentMoviePlayerViewControllerAnimated(mp) # This works better for this particular movie player
   end
 end
