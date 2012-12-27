@@ -1,0 +1,19 @@
+s.class.ancestors
+exit
+exit
+s = HighlightsScreen.new
+s.class.ancestors.to_yaml
+s.class.ancestors.pp
+s.class.ancestors.to_json
+s.class.ancestors.to_s
+s.class.ancestors.split(",").join("\n")
+s.class.ancestors.join("\n")
+s.class.ancestors.join("")
+s.class.ancestors.join("\r\n")
+s.class.ancestors.join("\\n")
+s.class.ancestors.join("/n")
+s.class.ancestors.join("")
+s.class.ancestors.join("             ")
+s.class.ancestors.join(" !! ")
+exit
+exit
