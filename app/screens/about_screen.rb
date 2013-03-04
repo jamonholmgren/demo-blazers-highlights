@@ -29,7 +29,7 @@ class AboutScreen < ProMotion::Screen
       font: UIFont.systemFontOfSize(24.0),
       lineBreakMode: UILineBreakModeWordWrap,
       numberOfLines: 0,
-      text: "Shows Trailblazers highlights. App demo by Jamon Holmgren using ProMotion 0.4.0"
+      text: "Shows Trailblazers highlights. App demo by Jamon Holmgren using ProMotion 0.5.0"
     }
   end
 end

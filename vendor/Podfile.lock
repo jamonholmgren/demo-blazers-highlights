@@ -6,6 +6,6 @@ DEPENDENCIES:
 - HCYoutubeParser
 
 SPEC CHECKSUMS:
-  HCYoutubeParser: 495572cf0ab77095f38137aff3fc9b32c13e0a8c
+  HCYoutubeParser: b5e88f679f613c1bbe58df3e173f46be38dcfbc0
 
 COCOAPODS: 0.16.0
