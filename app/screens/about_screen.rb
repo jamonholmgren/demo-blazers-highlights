@@ -22,7 +22,7 @@ class AboutScreen < ProMotion::Screen
   end
 
   def draw_about_label
-    add_element UILabel.alloc.initWithFrame(CGRectZero), {
+    add UILabel.alloc.initWithFrame(CGRectZero), {
       frame: CGRectMake(10, 50, self.bounds.size.width - 20, 160),
       textAlignment: UITextAlignmentCenter,
       textColor: UIColor.blackColor,
