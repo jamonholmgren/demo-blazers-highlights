@@ -1,11 +1,10 @@
-
 PODS:
-- HCYoutubeParser (0.0.1)
+  - HCYoutubeParser (0.0.1)
 
 DEPENDENCIES:
-- HCYoutubeParser
+  - HCYoutubeParser
 
 SPEC CHECKSUMS:
-  HCYoutubeParser: b5e88f679f613c1bbe58df3e173f46be38dcfbc0
+  HCYoutubeParser: 664f229b031437347acc91026d2ba80db634b532
 
-COCOAPODS: 0.16.4
+COCOAPODS: 0.34.4
